@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fanny.tugastebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".KeringatActivity"
+            android:label="@string/title_activity_keringat" >
+        </activity>
+        <activity
+            android:name=".KrisisActivity"
+            android:label="@string/title_activity_krisis" >
+        </activity>
+        <activity
+            android:name=".MataActivity"
+            android:label="@string/title_activity_mata" >
+        </activity>
+        <activity
+            android:name=".MerahActivity"
+            android:label="@string/title_activity_merah" >
+        </activity>
+        <activity
+            android:name=".NotasiActivity"
+            android:label="@string/title_activity_notasi" >
+        </activity>
+        <activity
+            android:name=".ObatActivity"
+            android:label="@string/title_activity_obat" >
+        </activity>
+        <activity
+            android:name=".PerangkapActivity"
+            android:label="@string/title_activity_perangkap" >
+        </activity>
+        <activity
+            android:name=".PulauActivity"
+            android:label="@string/title_activity_pulau" >
+        </activity>
+        <activity
+            android:name=".RantaiActivity"
+            android:label="@string/title_activity_rantai" >
+        </activity>
+        <activity
+            android:name=".SilsilahActivity"
+            android:label="@string/title_activity_silsilah" >
+        </activity>
+        <activity
+            android:name=".SelesaiActivity"
+            android:label="@string/title_activity_selesai" >
+        </activity>
+        <activity
+            android:name=".BonusActivity"
+            android:label="@string/title_activity_bonus" >
+        </activity>
+        <activity
+            android:name=".MahkotaActivity"
+            android:label="@string/title_activity_mahkota" >
+        </activity>
+        <activity
+            android:name=".SetrikaActivity"
+            android:label="@string/title_activity_setrika" >
+        </activity>
+    </application>
+
+</manifest>
